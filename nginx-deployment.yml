@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 
 metadata:
-  name: template-deployment
+  name: nginx-deployment
   namespace: notes-app
   labels:
     app: template
