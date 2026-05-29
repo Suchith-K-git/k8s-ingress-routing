@@ -154,7 +154,7 @@ If external IP is not available, use port forwarding.
 ## Port Forward Ingress Controller
 
 ```bash id="jlwmfq"
-kubectl port-forward -n ingress-nginx svc/ingress-nginx-controller 8080:80
+kubectl port-forward -n ingress-nginx svc/ingress-nginx-controller 8080:80 --address 0.0.0.0
 ```
 
 Now access:
